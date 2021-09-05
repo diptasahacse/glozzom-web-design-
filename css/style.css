@@ -1,0 +1,183 @@
+h2 {
+  color: #fff; }
+
+body {
+  background: #fff; }
+
+button:focus {
+  outline: none; }
+
+.uk-lightbox {
+  z-index: 99999999999; }
+
+.navbar {
+  background: #123;
+  opacity: 0.8; }
+  .navbar .nav-item {
+    padding-right: 1rem; }
+    .navbar .nav-item:last-child {
+      padding-right: 0; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+#slider-section .carousel-item {
+  height: 450px; }
+
+#slider-section .carousel-img-1 {
+  background: url("../img/image1.jpeg") no-repeat center top;
+  background-size: cover; }
+
+#slider-section .carousel-img-2 {
+  background: url("../img/image2.jpeg") no-repeat center top;
+  background-size: cover; }
+
+#slider-section .carousel-img-3 {
+  background: url("../img/image3.jpeg") no-repeat center top;
+  background-size: cover; }
+
+#home-icon .fa {
+  font-size: 50px; }
+
+#ready-section {
+  background: url("../img/bg1.jpeg") no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative; }
+  #ready-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+#video-section {
+  background: url("../img/people.jpeg") no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative; }
+  #video-section .fa {
+    font-size: 50px;
+    color: red; }
+  #video-section .video-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    min-height: 250px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0; }
+
+#photo-section img {
+  min-height: 250px; }
+
+#footer-section {
+  background: #000; }
+  #footer-section p {
+    margin: 0;
+    padding: 0; }
+
+#about-about-us-section {
+  background: url("../img/image1.jpeg") no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative; }
+  #about-about-us-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+#about-work-section img {
+  height: 350px;
+  width: 350px; }
+
+#about-work-section .fa {
+  font-size: 50px; }
+
+#about-testimonial-section {
+  background: #F8F9FA; }
+  #about-testimonial-section .slick-prev::before,
+  #about-testimonial-section .slick-next::before {
+    color: #000; }
+
+#services-services-section {
+  background: url("../img/image3.jpeg") no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative; }
+  #services-services-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+#services-services-body-section .card-footer {
+  border-top: 0; }
+
+#asked-questions-section {
+  background: #343A40; }
+  #asked-questions-section a:hover {
+    text-decoration: none; }
+
+#blog-blog-section {
+  background: url("../img/image1.jpeg") no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative; }
+  #blog-blog-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+#blog-post-section img {
+  height: 250px; }
+
+#contact-contact-header-section {
+  background: url("../img/image1.jpeg") no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative; }
+  #contact-contact-header-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+@media (max-width: 767px) {
+  #ready-section {
+    min-height: 300px; } }
+
+@media (max-width: 514px) {
+  #ready-section {
+    min-height: 350px; } }
+
+@media (max-width: 480px) {
+  .lead {
+    font-size: 1rem; }
+  #slider-section .display-4 {
+    font-size: 2.5rem; }
+  #video-section {
+    min-height: 280px; }
+  #about-work-section img {
+    height: 250px;
+    width: 250px; } }
+
+@media (max-width: 340px) {
+  #slider-section .display-4 {
+    font-size: 2rem; } }
